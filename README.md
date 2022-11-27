@@ -22,6 +22,11 @@ Xcode 14.0.1 / Swift 5
 - 1-4. Fill **Product name**, select **SwiftUI**, language is **swift** then tap **Next**
 - 1-5. Select the directory to save your project and then tap **Create**
 
+#### 2. Download assets
+
+- 2.1 Please download the assets from the link
+https://www.dropbox.com/scl/fo/v0vg30brqvquzzzyfo72e/h?dl=0&rlkey=w4spkz9zx16a9hrjqm0apnr0l
+
 #### 2, Add code
 
 ```swift
