@@ -28,7 +28,7 @@ Xcode 14.0.1 / Swift 5
 
 #### 2. Download assets
 
-- 2.1 Please download the assets from the [link](https://www.dropbox.com/scl/fo/v0vg30brqvquzzzyfo72e/h?dl=0&rlkey=w4spkz9zx16a9hrjqm0apnr0l)
+- 2.1 Please download the assets from the [link](https://www.dropbox.com/sh/igk464h05npras1/AAAvQcXkU0xma8BeRThS1Ds3a?dl=0)
 - 2.1 Drag and drop the jpeg images to the Assets
 
 #### 2, Add code
