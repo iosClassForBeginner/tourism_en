@@ -15,98 +15,38 @@ Xcode 14.0.1 / Swift 5
 
 ## Procedure
 
-#### 1, Create your project
+#### 1. Create your project
 
-- 1-1. Open Xcode
-- 1-2. Select **App** and then click **Next**
-<img src="https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/create-project-1.png" width="300px" />
+- Open Xcode
+- Select **App** and then click **Next** (▷[details](https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/create-project-1.png))
+- Fill **Product name**, select **SwiftUI**, language is **swift** then tap **Next** (▷[details](https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/create-project-2.png))
+- Select the directory to save your project and then tap **Create**
 
-- 1-4. Fill **Product name**, select **SwiftUI**, language is **swift** then tap **Next**
-<img src="https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/create-project-2.png" width="300px" />
+#### 2. Import assets
 
-- 1-5. Select the directory to save your project and then tap **Create**
+- Download the assets from the [link](https://www.dropbox.com/sh/igk464h05npras1/AAAvQcXkU0xma8BeRThS1Ds3a?dl=0)
+- Drag and drop the jpeg images to the Assets (▷[details](https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/add-to-assets.png))
+- Add json file to the project. Be sure you check "Copy item if needed" (▷[details](https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/add-file.png))
 
-#### 2. Download assets
+#### 3. Add Code
 
-- 2.1 Please download the assets from the [link](https://www.dropbox.com/sh/igk464h05npras1/AAAvQcXkU0xma8BeRThS1Ds3a?dl=0)
-- 2.1 Drag and drop the jpeg images to the Assets
-
-#### 2, Add code
-
-```swift
-struct ContentView: View {
-  @State private var count = 0
-
-  var body: some View {
-    ZStack {
-      Color(.black)
-        .edgesIgnoringSafeArea(.all)
-
-      VStack {
-        Text("Counter")
-          .foregroundColor(.white)
-          .font(.largeTitle)
-          .fontWeight(.heavy)
-          .padding(.top, 48)
-        
-        Text("\(count)")
-          .font(.system(size: 60))
-          .foregroundColor(.white)
-          .font(.largeTitle)
-          .fontWeight(.heavy)
-          .padding(.top, 24)
-          .animation(.default, value: count)
-        
-        Spacer()
-        
-        HStack {
-          Button {
-            count -= 1
-          } label: {
-            Text("-")
-              .font(.largeTitle)
-              .fontWeight(.heavy)
-              .padding(.horizontal, 24)
-              .padding(.vertical, 8)
-          }
-          
-          Button {
-            count += 1
-          } label: {
-            Text("+")
-              .font(.largeTitle)
-              .fontWeight(.heavy)
-              .padding(.horizontal, 24)
-              .padding(.vertical, 8)
-          }
-        }
-        .padding(.bottom, 24)
-      }
-    }
-  }
-
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
-
-```
+- Add model and json loader (▷[model](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Models/PlaceModel.swift#L10-L16) ▷[json loader](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Utils/JsonLoader.swift#L10-L29))
+- Add @State to store the tourism destination data (▷[coode](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListView.swift#L11))
+- Add list view to present tourism destinations (▷[list](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListView.swift#L14-L28))
+- Add list row to present each tourism destination (▷[list row](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListRow.swift#L14-L32))
+- Add navigation link to naviagte to the details page (▷[navigation link](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListView.swift#L18-L22) ▷[details page](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceDetailsView.swift#L14-L35))
 
 ## References
 
 - [State](https://swiftontap.com/state)
-- [Binding](https://swiftontap.com/binding)
 - [ZStack](https://swiftontap.com/zstack)
 - [VStack](https://swiftontap.com/vstack)
 - [HStack](https://swiftontap.com/hstack)
-- [ViewModifer](https://swiftontap.com/viewmodifier)
+- [NavigationView](https://swiftontap.com/navigationview)
+- [NavigationLink](https://swiftontap.com/navigationlink)
+- [List](https://swiftontap.com/list)
 - [Text](https://swiftontap.com/text)
-- [Button](https://swiftontap.com/button)
+- [Image](https://swiftontap.com/image)
 
 ## Excersice
 
-1. Add a condition to prevent count become less than zero
-2. Add a reset button to set the count to be zero
