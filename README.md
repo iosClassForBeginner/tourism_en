@@ -25,7 +25,7 @@ Xcode 14.1 / Swift 5
 #### 2. Import assets
 
 - Download the assets from the [link](https://www.dropbox.com/sh/igk464h05npras1/AAAvQcXkU0xma8BeRThS1Ds3a?dl=0)
-- Drag and drop the jpeg images to the Assets (▷[details](https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/add-to-assets.png))
+- Drag and drop the jpeg images to the Xcode Assets folder (▷[details](https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/add-to-assets.png))
 - Add json file to the project. Be sure you check "Copy item if needed" (▷[details](https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/add-file.png))
 
 #### 3. Add Code
