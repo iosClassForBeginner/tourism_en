@@ -11,12 +11,12 @@
 		A56815CA29334B26000D4CEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56815C929334B26000D4CEE /* ContentView.swift */; };
 		A56815CC29334B28000D4CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56815CB29334B28000D4CEE /* Assets.xcassets */; };
 		A56815CF29334B28000D4CEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56815CE29334B28000D4CEE /* Preview Assets.xcassets */; };
-		A56815D6293353FD000D4CEE /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A56815D5293353FD000D4CEE /* data.json */; };
 		A56815DA2933565C000D4CEE /* PlaceListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56815D92933565C000D4CEE /* PlaceListRow.swift */; };
 		A56815DC29335671000D4CEE /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56815DB29335671000D4CEE /* PlaceModel.swift */; };
 		A56815E029335777000D4CEE /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56815DF29335777000D4CEE /* PlaceListView.swift */; };
 		A56815E229335B42000D4CEE /* PlaceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56815E129335B42000D4CEE /* PlaceDetailsView.swift */; };
 		A56815E429336087000D4CEE /* JsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56815E329336087000D4CEE /* JsonLoader.swift */; };
+		A5CFEBBB29340CA500C4574B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A5CFEBBA29340CA500C4574B /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +25,12 @@
 		A56815C929334B26000D4CEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A56815CB29334B28000D4CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A56815CE29334B28000D4CEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A56815D5293353FD000D4CEE /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		A56815D92933565C000D4CEE /* PlaceListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListRow.swift; sourceTree = "<group>"; };
 		A56815DB29335671000D4CEE /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		A56815DF29335777000D4CEE /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
 		A56815E129335B42000D4CEE /* PlaceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsView.swift; sourceTree = "<group>"; };
 		A56815E329336087000D4CEE /* JsonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonLoader.swift; sourceTree = "<group>"; };
+		A5CFEBBA29340CA500C4574B /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				A56815DB29335671000D4CEE /* PlaceModel.swift */,
-				A56815D5293353FD000D4CEE /* data.json */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				A56815E329336087000D4CEE /* JsonLoader.swift */,
+				A5CFEBBA29340CA500C4574B /* data.json */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A56815CF29334B28000D4CEE /* Preview Assets.xcassets in Resources */,
-				A56815D6293353FD000D4CEE /* data.json in Resources */,
+				A5CFEBBB29340CA500C4574B /* data.json in Resources */,
 				A56815CC29334B28000D4CEE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
