@@ -11,7 +11,7 @@ https://www.meetup.com/iOS-Development-Meetup-for-Beginner/
 
 ## Development Environment
 
-Xcode 14.0.1 / Swift 5
+Xcode 14.1 / Swift 5
 
 ## Procedure
 
