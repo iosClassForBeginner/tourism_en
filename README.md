@@ -19,7 +19,11 @@ Xcode 14.0.1 / Swift 5
 
 - 1-1. Open Xcode
 - 1-2. Select **App** and then click **Next**
+<img src="https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/create-project-1.png" width="300px" />
+
 - 1-4. Fill **Product name**, select **SwiftUI**, language is **swift** then tap **Next**
+<img src="https://github.com/iosClassForBeginner/common-assets/blob/main/swiftUI/Xcode14/create-project-2.png" width="300px" />
+
 - 1-5. Select the directory to save your project and then tap **Create**
 
 #### 2. Download assets
