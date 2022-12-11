@@ -30,11 +30,11 @@ Xcode 14.1 / Swift 5
 
 #### 3. Add Code
 
-- Add model and json loader (▷[model](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Models/PlaceModel.swift#L10-L16) ▷[json loader](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Utils/JsonLoader.swift#L10-L29))
-- Add @State to store the tourism data as decoded model (▷[coode](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListView.swift#L11))
-- Add list view to present tourism destinations (▷[list](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListView.swift#L14-L28))
-- Add list row to present each tourism destination (▷[list row](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListRow.swift#L14-L32))
-- Add navigation link to naviagte to the details page (▷[navigation link](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListView.swift#L18-L22) ▷[details page](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceDetailsView.swift#L14-L35))
+1. Add list view (▷[list](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListView.swift#L14-L28))
+2. Add list row (▷[list row](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListRow.swift#L14-L32))
+3. Add navigation link (▷[navigation link](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListView.swift#L18-L22) ▷[details page](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceDetailsView.swift#L14-L35))
+4. Add model and json loader (▷[model](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Models/PlaceModel.swift#L10-L16) ▷[json loader](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Utils/JsonLoader.swift#L10-L29))
+5. Load json file and store on @State property wrapper (▷[coode](https://github.com/iosClassForBeginner/tourism_en/blob/main/tourist-app/Views/PlaceListView.swift#L11))
 
 ## References
 
